@@ -1,0 +1,127 @@
+<<<<<<< HEAD
+Script started on 2023-03-30 04:18:39+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="88" LINES="52"]
+[?2004h]0;rtfeng@instance-1: ~/Project2_DE_red[01;32mrtfeng@instance-1[00m:[01;34m~/Project2_DE_red[00m$ s[Kgit status
+[?2004lOn branch BackendDeveloper
+Your branch is up to date with 'origin/BackendDeveloper'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlog[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;rtfeng@instance-1: ~/Project2_DE_red[01;32mrtfeng@instance-1[00m:[01;34m~/Project2_DE_red[00m$ git log -1
+[?2004l[?1h=[33mcommit 33cf78c88c69d25413b6bae1e2813c12a6570a69[m[33m ([m[1;36mHEAD -> [m[1;32mBackendDeveloper[m[33m, [m[1;31morigin/Backen[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mdDeveloper[m[33m)[m[m
+Author: Richard Feng <rtfeng@wisc.edu>[m
+Date:   Thu Mar 30 04:17:23 2023 +0000[m
+[m
+    added all files, functioning BackendDeveloper[m
+[K[?1l>[?2004h]0;rtfeng@instance-1: ~/Project2_DE_red[01;32mrtfeng@instance-1[00m:[01;34m~/Project2_DE_red[00m$ make clean
+[?2004lrm *.class
+rm: cannot remove '*.class': No such file or directory
+make: *** [Makefile:24: clean] Error 1
+[?2004h]0;rtfeng@instance-1: ~/Project2_DE_red[01;32mrtfeng@instance-1[00m:[01;34m~/Project2_DE_red[00m$ ls
+[?2004lBackendDeveloperTests.java  PairReaderInterface.java        StudentInterface.java
+Makefile                    RedBlackTreeADT.java            TSSBackendBD.java
+PairBD.java                 RedBlackTreeBD.java             TSSBackendInterface.java
+PairInterface.java          SortedCollectionInterface.java  [0m[01;31mjunit5.jar[0m
+PairReaderBD.java           StudentBD.java                  log
+[?2004h]0;rtfeng@instance-1: ~/Project2_DE_red[01;32mrtfeng@instance-1[00m:[01;34m~/Project2_DE_red[00m$ make runTests
+[?2004ljavac -cp .:junit5.jar BackendDeveloperTests.java
+Note: ./TSSBackendBD.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+java -jar junit5.jar -cp . --select-class=BackendDeveloperTests
+File loaded
+=======
+Script started on 2023-03-30 04:43:03+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;dkim693@cs400-demo: ~/Project2_DE_bluedkim693@cs400-demo:~/Project2_DE_blue$ git status
+[?2004lOn branch FrontendDeveloper
+Your branch is ahead of 'origin/FrontendDeveloper' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;dkim693@cs400-demo: ~/Project2_DE_bluedkim693@cs400-demo:~/Project2_DE_blue$ git log -1
+[?2004l[?1h=[33mcommit 62de7b20de9c1e9ed208315438c5654917e5930d[m[33m ([m[1;36mHEAD -> [m[1;32mFrontendDeveloper[m[33m)[m[m
+Author: DK <dkim693@wisc.edu>[m
+Date:   Thu Mar 30 04:42:04 2023 +0000[m
+[m
+    Frontend git commit[m
+[K[?1l>[?2004h]0;dkim693@cs400-demo: ~/Project2_DE_bluedkim693@cs400-demo:~/Project2_DE_blue$ make clean
+[?2004lrm *.class
+[?2004h]0;dkim693@cs400-demo: ~/Project2_DE_bluedkim693@cs400-demo:~/Project2_DE_blue$ ls
+[?2004lFrontendDeveloperTests.java     StudentInterface.java      TextUITester.java
+Makefile                        TSSBackendFD.java          [0m[01;31mjunit5.jar[0m
+PairInterface.java              TSSBackendInterface.java   log
+PairReaderInterface.java        TSSFrontendFD.java         text.txt
+RedBlackTreeADT.java            TSSFrontendInterface.java
+SortedCollectionInterface.java  TestNameGrade.csv
+[?2004h]0;dkim693@cs400-demo: ~/Project2_DE_bluedkim693@cs400-demo:~/Project2_DE_blue$ make runTests
+[?2004ljavac -cp .:junit5.jar FrontendDeveloperTests.java
+java -jar junit5.jar  -cp . --select-class=FrontendDeveloperTests
+>>>>>>> FrontendDeveloper
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+<<<<<<< HEAD
+[36m├─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m│  └─[0m [36mBackendDeveloperTests[0m [32m✔[0m
+[36m│     ├─[0m [34mtest1[0m [32m✔[0m
+[36m│     ├─[0m [34mtest2[0m [32m✔[0m
+[36m│     ├─[0m [34mtest3[0m [32m✔[0m
+[36m│     ├─[0m [34mtest4[0m [32m✔[0m
+[36m│     ├─[0m [34mtest5[0m [32m✔[0m
+[36m│     ├─[0m [34mtest6[0m [32m✔[0m
+[36m│     ├─[0m [34mtest7[0m [32m✔[0m
+[36m│     └─[0m [34mtest8[0m [32m✔[0m
+[36m└─[0m [36mJUnit Platform Suite[0m [32m✔[0m
+
+Test run finished after 106 ms
+=======
+[36m│  └─[0m [36mFrontendDeveloperTests[0m [32m✔[0m
+[36m│     ├─[0m [34mtest1()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest2()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest3()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest4()[0m [32m✔[0m
+[36m│     └─[0m [34mtest5()[0m [32m✔[0m
+[36m├─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m└─[0m [36mJUnit Platform Suite[0m [32m✔[0m
+
+Test run finished after 225 ms
+>>>>>>> FrontendDeveloper
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+<<<<<<< HEAD
+[         8 tests found           ]
+[         0 tests skipped         ]
+[         8 tests started         ]
+[         0 tests aborted         ]
+[         8 tests successful      ]
+[         0 tests failed          ]
+
+[?2004h]0;rtfeng@instance-1: ~/Project2_DE_red[01;32mrtfeng@instance-1[00m:[01;34m~/Project2_DE_red[00m$ exit
+[?2004lexit
+
+Script done on 2023-03-30 04:19:14+00:00 [COMMAND_EXIT_CODE="0"]
+=======
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         0 tests failed          ]
+
+[?2004h]0;dkim693@cs400-demo: ~/Project2_DE_bluedkim693@cs400-demo:~/Project2_DE_blue$ exit
+[?2004lexit
+
+Script done on 2023-03-30 04:43:45+00:00 [COMMAND_EXIT_CODE="0"]
+>>>>>>> FrontendDeveloper
